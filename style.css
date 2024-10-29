@@ -70,3 +70,40 @@ p {
     height: 100%;
     z-index: 1;
 }
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .whatsapp-button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    .container {
+        padding: 15px;
+        max-width: 90%;
+    }
+}
+
+/* Responsividade para telas muito pequenas (smartphones) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .whatsapp-button {
+        padding: 8px 16px;
+        font-size: 0.8em;
+    }
+}
